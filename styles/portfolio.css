@@ -27,7 +27,7 @@ body {
     color: #757575;
     text-align: center;
     font-size: 18px;
-    
+
 }
 
 .btn-primary {
@@ -98,24 +98,45 @@ nav a {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin:130px 0px ;
+    margin: 130px 0px;
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 
 }
-#what-i-do-description{
-  padding: 30px 150px;
+
+#what-i-do-description {
+    padding: 30px 150px;
 
 }
-.skill-container{
+
+.skill-container {
     display: flex;
+    gap: 24px;
+
+}
+
+.skill {
+    padding: 30px;
+    border-radius: #FFF;
+    box-shadow: ;
+
+}
+
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
